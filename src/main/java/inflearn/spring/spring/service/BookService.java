@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-// @Service /* @Component를 확장한 어노테이션 */
+ @Service /* @Component를 확장한 어노테이션 */
 public class BookService {
 
     private static final Logger log = LoggerFactory.getLogger(BookService.class);
